@@ -1,0 +1,68 @@
+<odoo>
+    <template id="custom_sale_quotation_template">
+        <t t-call="web.external_layout">
+            <div class="page">
+                <h2 class="text-center">Price Quotation</h2>
+                <table class="table">
+                    <tr>
+                        <td><strong>Order No:</strong> <t t-esc="o.name"/></td>
+                        <td><strong>Order Date:</strong> <t t-esc="o.date_order"/></td>
+                    </tr>
+                </table>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>SL</th>
+                            <th>Item Description</th>
+                            <th>Qty</th>
+                            <th>Unit Price</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="o.order_line" t-as="line">
+                            <tr>
+                            
+                                <td><t t-esc="loop.index"/></td>
+                                <td><t t-esc="line.name"/></td>
+                                <td><t t-esc="line.product_uom_qty"/></td>
+                                <td><t t-esc="line.price_unit"/></td>
+                                <td><t t-esc="line.price_subtotal"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <table class="table">
+                    <tr>
+                        <td><strong>Discount %:</strong> <t t-esc="o.discount"/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total Amount:</strong> <t t-esc="o.amount_total"/></td>
+                    </tr>
+                    <tr>
+                        <td><strong>In Words:</strong> <t t-esc="o.currency_id.amount_to_text(o.amount_total)"/></td>
+                    </tr>
+                </table>
+                <h3>Terms & Conditions:</h3>
+                <ul>
+                    <li>Price Incoterm: <t t-esc="o.incoterm_id.name"/></li>
+                    <li>Payment Terms: <t t-esc="o.payment_term_id.name"/></li>
+                    <li>Delivery Lead Time: ___________</li>
+                    <li>VAT/AIT/DUTY: ___________</li>
+                    <li>Scope of Work: ___________</li>
+                    <li>Offer Validity Time: ___________</li>
+                    <li>Warranty: ___________</li>
+                    <li>Bank Details: ___________</li>
+                </ul>
+                <h3>Client Details:</h3>
+                <p><strong>Company Name:</strong> <t t-esc="o.partner_id.name"/></p>
+                <p><strong>Office Address:</strong> <t t-esc="o.partner_id.street"/></p>
+                <p><strong>Phone/Email:</strong> <t t-esc="o.partner_id.phone"/> / <t t-esc="o.partner_id.email"/></p>
+                <p><strong>Attention:</strong> ___________</p>
+                <p><strong>Phone/Email:</strong> ___________</p>
+                <p><strong>Quotation Serial No.:</strong> <t t-esc="o.quotation_serial_no"/></p>
+                <p><strong>Revised No.:</strong> <t t-esc="o.revised_no"/></p>
+            </div>
+        </t>
+    </template>
+</odoo>

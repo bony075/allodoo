@@ -1,0 +1,10 @@
+<odoo>
+    <report
+        id="custom_quotation_report"
+        model="sale.order"
+        string="Custom Quotation Report"
+        report_type="qweb-pdf"
+        name="custom_quotation_report.custom_sale_quotation_template"
+        file="custom_quotation_report.custom_sale_quotation_template"
+    />
+</odoo>
