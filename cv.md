@@ -90,3 +90,64 @@ Dynamic and results-oriented IT and ERP Senior Engineer with extensive experienc
 ## References
 
 Available upon request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# MD. HAYATULLA BONY  
+## Odoo Functional Consultant  
+**Contact**: +8801849857200 | **Email**: [Email] | **LinkedIn**: [Profile]  
+
+---
+
+### Professional Summary  
+Senior Engineer with 4+ years of ERP/Odoo implementation experience, specializing in module customization and cross-functional system integration for manufacturing efficiency.  
+
+---
+
+### Education  
+- **BSc in CSE**, Bangladesh University of Business and Technology (2014–2019) | GPA: 3.16/4.0  
+- **Odoo Functional Certification** (In Progress)  
+
+---
+
+### Key Skills  
+- **ERP/Odoo**: Module Configuration, Manufacturing Workflow Automation, Inventory Management  
+- **Languages**: Python, JavaScript (ES6), SQL  
+- **Tools**: Node.js, MongoDB, React, Firebase  
+
+---
+
+### Professional Experience  
+**EMACO Solutions Ltd** | *Senior Engineer* (Jan 2021–Present)  
+- Led Odoo ERP customization for manufacturing clients, reducing order processing time by 25%.  
+- Collaborated with supply chain teams to integrate Odoo inventory modules with IoT-based tracking systems.  
+- Developed Python scripts to automate Odoo data migration for FMCG clients.  
+
+---
+
+### Projects  
+**Odoo Manufacturing Module Optimization**  
+- Customized production scheduling modules for 10+ FMCG clients, improving on-time delivery by 40%.  
+
+---
+
+### Certifications  
+- **Odoo Functional Certification** (Anticipated 2025)  
+
